@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Data and large files (User requested to exclude)
+dataset/
+*.csv
+*.png
+*.txt
+
+# Keep README and Requirements
+!README_USAGE.md
+!requirements.txt
+!evaluation_report.txt
+
+# Keep Model
+!xgboost_congestion_model.json
